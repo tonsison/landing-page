@@ -2,20 +2,8 @@ body {
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
-  background: #1F2937; 
-}
-
-header {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  font-size: 24px;
-  color: #F9FAF8;
-  flex: auto;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -28,6 +16,63 @@ ul {
   list-style: none;
 }
 
-.footer {
+header {
+  padding: 20px;
+  background: #1F2937; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  flex: auto;
+}
+
+.header-links {
+  display: flex;
+  gap: 30px;
+}
+
+.main {
+  flex: auto;
+}
+
+.first-part {
   background: #1F2937;
+  display: flex; 
+  padding: 70px;
+}
+
+.awesome {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.sub-awesome {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background: #3882F6;
+}
+
+.first-img {
+  padding: 100px;
+  margin: 10px;
+  background: grey;
+  color: #E5E7EB;
+  align-self: center;
+}
+
+.footer {
+  font-size: 18px;
+  color: #E5E7EB;
+  background: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
