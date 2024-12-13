@@ -68,7 +68,46 @@ button {
   align-self: center;
 }
 
+.second-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.rando {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.pics {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.framed {
+  padding: 50px;
+  border: 5px solid blue;
+}
+
+.groups {
+  max-width: 200px;
+  align-self: center;
+}
+
+.subs {
+  display: flex;
+  align-items: center;
+}
+
 .footer {
+  padding: 20px;
   font-size: 18px;
   color: #E5E7EB;
   background: #1F2937;
