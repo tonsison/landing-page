@@ -27,6 +27,7 @@ header {
 .logo {
   font-size: 24px;
   color: #F9FAF8;
+  font-weight: 900;
   flex: auto;
 }
 
@@ -36,6 +37,10 @@ header {
 }
 
 .main {
+  flex: auto;
+}
+
+.first-content {
   flex: auto;
 }
 
@@ -54,10 +59,20 @@ header {
 .sub-awesome {
   font-size: 18px;
   color: #E5E7EB;
+  margin-bottom: 15px;
 }
 
 button {
   background: #3882F6;
+  color: #F9FAF8;
+  width: 120px;
+  font-weight: 900;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.first-sign-up {
+  border: none;
 }
 
 .first-img {
@@ -94,15 +109,20 @@ button {
 .framed {
   padding: 50px;
   border: 5px solid blue;
+  border-radius: 12px;
 }
 
 .groups {
-  max-width: 200px;
-  align-self: center;
+  max-width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .subs {
   display: flex;
+  text-align: center;
   align-items: center;
 }
 
@@ -155,6 +175,10 @@ button {
 
 .sub-call {
   color: #E5E7EB;
+}
+
+.second-sign-up {
+  border-color: #E5E7EB;
 }
 
 .footer {
