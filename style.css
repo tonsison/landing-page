@@ -118,6 +118,7 @@ button {
 .quote {
   font-size: 36px;
   max-width: 1000px;
+  flex: auto;
   color: #1F2937;
   font-style: italic;
   font-weight: lighter;
@@ -130,6 +131,30 @@ button {
   max-width: 1000px;
   font-size: 20px;
   font-weight: 900;
+}
+
+.fourth-part {
+  background: #3882F6;
+  margin: 110px;
+  padding: 30px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-text {
+  flex: auto;
+}
+
+.call {
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.sub-call {
+  color: #E5E7EB;
 }
 
 .footer {
