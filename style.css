@@ -75,7 +75,7 @@ button {
   flex-direction: column;
   padding: 50px;
   margin-top: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 75px;
 }
 
 .rando {
@@ -104,6 +104,32 @@ button {
 .subs {
   display: flex;
   align-items: center;
+}
+
+.third-part {
+  background: #E5E7EB;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  max-width: 1000px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quoter {
+  align-self: flex-end;
+  flex-shrink: 0;
+  margin-right: 300px;
+  max-width: 1000px;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 .footer {
